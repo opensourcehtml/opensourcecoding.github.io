@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100|Lato:100|Open+Sans+Condensed:300|Raleway:100" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link href="css/landing.css" rel="stylesheet">
+
+    <title>opensourceCoding</title>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/signup-form.js"></script>
+</head>
+<body>
+
+
+
+<div class="img1">
+    <div class="navBar">
+
+        <a href="#" id="navShortcut"> <img src="images/menu.svg" alt="menu" id="menuSVG">
+        <h4 id="navMenu">Menu</h4>
+        </a>
+    </div>
+    <h3 id="aboutP">A beginners perspective on web building</h3>
+    <a href="#aboutMe" class="button aboutIMG">About  Me!</a>
+    <a href="gamePt1.html" class="button aboutIMG">html and css tips and tricks</a>
+    <a href="gamePt1.html" class="button aboutIMG">Lets Make A Javascript Game: Part 1</a>
+</div>
+
+<div class="hiddenNav">
+    <ul>
+        <h4>Javascript: Game making</h4>
+        <li><a href="#" class="hiddenLinks">Part 1: Canvas Creation</a> </li>
+        <li><a href="#" class="hiddenLinks">Part 2: </a> </li>
+        <li><a href="#" class="hiddenLinks">Part 3: </a> </li>
+        <li><a href="#" class="hiddenLinks">Part 4: </a> </li>
+        <li><a href="#" class="hiddenLinks">Part 5: </a> </li>
+        <li><a href="#" class="hiddenLinks">Part 6: </a> </li>
+        <li><a href="#" class="hiddenLinks">Part 7: </a> </li>
+        <li><a href="#" class="hiddenLinks">Part 8: </a> </li>
+        <li><a href="#" class="hiddenLinks">Part 9: </a> </li>
+        <li><a href="#" class="hiddenLinks">Part 10: </a> </li>
+    </ul>
+    <ul>
+        <h4>html/css tips and tricks</h4>
+        <li><a href="#" class="hiddenLinks">Drop letter</a> </li>
+        <li><a href="#" class="hiddenLinks">Parralax Effect</a> </li>
+        <li><a href="#" class="hiddenLinks">Something</a> </li>
+        <li><a href="#" class="hiddenLinks">Something</a> </li>
+        <li><a href="#" class="hiddenLinks">Something</a> </li>
+        <li><a href="#" class="hiddenLinks">Something</a> </li>
+    </ul>
+</div>
+
+<section class="section light">
+        <h3>Follow US on Social Media</h3>
+        <a href="#" class="socialSection"><img alt="facebook" src="images/facebook-2935402_640(1).png" class="socialSection"></a>
+        <a href="#" class="socialSection"><img alt="twitter" src="images/twitter-2935414_640(1).png" class="socialSection"></a>
+        <a href="#" class="socialSection"><img alt="instagram" src="images/instagram-2935404_640.png" class="socialSection"></a>
+    </section>
+
+<div class="img2">
+
+</div>
+
+    <section class="section dark" id="aboutMe">
+        <div class="container">
+        <h3> About Me!</h3>
+        <img src="images/me.jpg" id="mePic">
+        <p id="dropLetter">Hello, my name is Joshua Johnson. I feel in love with wanting to learn web design and development when I
+            stumbled upon a video that Brad Hussey made on youtube about creating websites. This fascinated me so much that
+            I started looking into classes from places like Udemy and Treehouse learning. Eventually, I went back to
+            school where I started my path in Computer Programming with the emphasis on web applications. I am currently
+            still enrolled and loving it. In fact this site is one of my final projects for my Web development and Javascript classes.
+        </p>
+
+        <p>A little more about me though. I grew up in Georgia, right outside the Atlanta, in a Town called Stone Mountain.
+            From there, I graduated Highschool and didn't know what to do with my life, so I bounced around from job to
+            job till finally a friend of mine convince me to join the Marines. I primary did this so that I could pay
+            for my schooling, but also saw it as an opportunity to get some skill set and do right for my country. I
+            served for Four years in the infantry and from there I went on to college. I ended up with a B.S. in
+            Environmental Science beacuse I wanted to work out doors. 4 years later, I feel out of it and
+            wanted more with my life. I still had some time left on my GI bill and decided to go back for my Computer
+            Science degree, and this is where I am today.
+        </p>
+        <p>So welcome to my site and lets start a journey together as I learn to code some front end stuff and have
+            fun at the same time. </p>
+
+
+        </div>
+    </section>
+
+<div class="img3">
+
+</div>
+<section class="section light">
+
+    <div class="section contact">
+        <div class="container">
+            <form id="signupForm" method="get" action="form-handler.html"  autocomplete="off">
+
+                <p>
+                    <label for="firstname">First Name</label>
+                    <input class="u-full-width" type="text" id="firstname" name="firstname" required>
+
+                </p>
+
+                <p>
+                    <label for="lastname">Last Name</label>
+                    <input class="u-full-width" type="text" id="lastname" name="lastname" required>
+                </p>
+
+                <label for="exampleEmailInput">Your email</label>
+                <input class="u-full-width" type="email" id="exampleEmailInput" required>
+
+                <label for="exampleRecipientInput">Reason for contacting</label>
+                <select class="u-full-width" id="exampleRecipientInput">
+                    <option value="Option 1">Questions</option>
+                    <option value="Option 2">Admiration</option>
+                    <option value="Option 3">Advertisement</option>
+                </select>
+
+
+                <label for="exampleMessage">Message</label>
+                <textarea class="u-full-width" placeholder="Hi opensourceHTML …" id="exampleMessage"></textarea>
+
+                <input class="button-primary" type="submit" value="Submit" id="submit">
+            </form>
+
+        </div>
+    </div>
+</section>
+
+
+<footer class="section footer">
+
+    <div>
+        Copyright &copy; opensourceHtml 2018</div><br>
+    <div>
+        <a href="#"><img alt="facebook" src="images/facebook-2935402_640(1).png" class="socialImgs"></a>
+        <a href="#"><img alt="twitter" src="images/twitter-2935414_640(1).png" class="socialImgs"></a>
+        <a href="#"><img alt="instagram" src="images/instagram-2935404_640.png" class="socialImgs"></a>
+    </div>
+
+
+</footer>
+
+
+</body>
+</html>

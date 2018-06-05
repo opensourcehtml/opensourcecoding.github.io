@@ -1,0 +1,6 @@
+$().ready(function () {
+
+    $("#signupForm").validate({
+
+    });
+});
